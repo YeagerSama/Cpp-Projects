@@ -17,6 +17,12 @@ The goal of this repository is to:
 ## 🧠 Topics Covered (as I learn)
 
 - 🔹 Basics of C++ (Syntax, Loops, Conditionals)
+- 🔹 Functions
+- 🔹 File Handling
+- 🔹 Multifile Compilation
+- 🔹 Const Enum and Macro
+
+
 
 ---
 
