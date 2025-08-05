@@ -31,6 +31,15 @@ The goal of this repository is to:
 ```bash
 cpp-projects/
 │
-├── Beginner/
-│   ├── NumberGuessingGame.cpp
-└── README.md
+├── README.md                      # Project overview, topics covered, etc.
+│
+├── Beginner/                      # Beginner-level C++ concepts and small projects
+│   ├── NumberGuessingGame/
+│   │   ├── NumberGuessingGame.cpp
+│   │   └── BestScore.txt
+│   │
+│   └── Multifile_Compilation/
+│       ├── main.cpp
+│       ├── rectangle_utils.cpp
+│       └── rectangle_utils.h
+│
