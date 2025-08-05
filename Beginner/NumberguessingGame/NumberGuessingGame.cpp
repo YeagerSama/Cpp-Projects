@@ -47,7 +47,7 @@ void guessingGame(int n){
 
 
     //Create an input object check wether the score is the bestscore or not
-    ifstream read("bestScore.txt");
+    ifstream read("BestScore.txt");
     if(!read.is_open()){
         cout<<"The file is not opening or does not exist\n";
     }
@@ -56,7 +56,7 @@ void guessingGame(int n){
     read>>input;
 
     if(attempts<input){
-        ofstream file("bestScore.txt");
+        ofstream file("BestScore.txt");
         file<<attempts;
         cout<<"You have beat the High Score !!!"<<endl;
         cout<<attempts<<endl;
